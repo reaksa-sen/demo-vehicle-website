@@ -8,7 +8,7 @@ import { ContactForm } from 'screens/contact/ContactForm';
 
 const Contact: NextPage = () => {
   return (
-    <div className="container">
+    <div className="container mt-24 px-8">
       <div className=" grid grid-cols-1 lg:grid-cols-2">
         <div className="col-span-1">
           <div className="flex justify-center md:justify-center lg:justify-start">

@@ -34,10 +34,10 @@ const item = [
 
 const ButtonCar: React.FC = () => {
   return (
-    <div className="flex w-full flex-wrap justify-center gap-y-4 gap-x-8">
+    <div className="group flex w-full flex-wrap justify-center gap-y-4 gap-x-8">
       {item.map(x => (
         <>
-          <div className="flex flex-col items-center gap-y-5 gap-x-5">
+          <div className="flex flex-col items-center gap-y-5 gap-x-5 group-hover:cursor-pointer">
             <div className="flex items-center rounded-full border hover:border-primary-500">
               <div className="flex h-16 w-16 items-center justify-center text-white">{x.car}</div>
             </div>
