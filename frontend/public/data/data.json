@@ -1,0 +1,9 @@
+{
+  "navigationBar": [
+    {"name": "Home", "link": "/"},
+    {"name": "Search", "link": "/search"},
+    {"name": "Listing", "link": "/Listing"},
+    {"name": "About Us", "link": "/about"},
+    {"name": "Contact Us", "link": "/contact"}
+  ]
+}
