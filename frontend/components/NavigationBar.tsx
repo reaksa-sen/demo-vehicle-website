@@ -85,6 +85,7 @@ const NavButton: React.FC<{ onClick: () => void; isNavOpen: boolean }> = ({
 const Navigator = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isTop, setIsTop] = useState(true);
+  const router = useRouter();
 
   useScrollPosition(
     ({ currPos }) => {
@@ -101,8 +102,8 @@ const Navigator = () => {
   return (
     <div
       className={classNames('fixed z-50 w-full', {
-        'xl:bg-transparent': isTop,
-        'bg-black bg-none': !isTop || isNavOpen
+        'xl:bg-transparent': isTop && router.pathname === '/',
+        'bg-black bg-none': !isTop || isNavOpen || router.pathname !== '/'
       })}
     >
       <div className="hidden justify-between px-4 py-7 xl:flex">

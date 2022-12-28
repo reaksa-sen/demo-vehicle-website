@@ -5,29 +5,29 @@ import { Autoplay, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import car from '../public/banner-bg.jpg';
 import { ListBox } from './ListBox/ListBox';
-import { TfiCar } from 'react-icons/tfi';
 import { Button } from './Button';
 import { BiSearch } from 'react-icons/bi';
+import { IoCarSportOutline } from 'react-icons/io5';
 
 const item = [
   {
-    car: <TfiCar size={35} />,
+    car: <IoCarSportOutline size={35} />,
     title: 'Seden'
   },
   {
-    car: <TfiCar size={35} />,
+    car: <IoCarSportOutline size={35} />,
     title: 'Coupe'
   },
   {
-    car: <TfiCar size={35} />,
+    car: <IoCarSportOutline size={35} />,
     title: 'SUV'
   },
   {
-    car: <TfiCar size={35} />,
+    car: <IoCarSportOutline size={35} />,
     title: 'Hatcheck'
   },
   {
-    car: <TfiCar size={35} />,
+    car: <IoCarSportOutline size={35} />,
     title: 'Convertible'
   }
 ];
@@ -37,11 +37,11 @@ const ButtonCar: React.FC = () => {
     <div className="flex w-full flex-wrap justify-center gap-y-4 gap-x-8">
       {item.map(x => (
         <>
-          <div className="flex flex-col items-center gap-y-5 gap-x-5">
+          <div className="flex cursor-pointer flex-col items-center gap-y-5 gap-x-5">
             <div className="flex items-center rounded-full border hover:border-primary-500">
               <div className="flex h-16 w-16 items-center justify-center text-white">{x.car}</div>
             </div>
-            <h1 className=" text-white">{x.title}</h1>
+            <h1 className="text-sm text-white">{x.title}</h1>
           </div>
         </>
       ))}
