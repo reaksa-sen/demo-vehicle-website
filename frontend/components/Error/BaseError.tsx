@@ -16,7 +16,7 @@ export const BaseError: React.FC<Props> = props => {
           <Link href="/" className="inline-flex">
             <a>
               <span className="sr-only">Vehicle</span>
-              <img className="h-16 w-auto cursor-pointer" src="/images/logo.png" alt="stdio4" />
+              <img className="h-16 w-auto cursor-pointer" src="/logo.png" alt="vehicle" />
             </a>
           </Link>
         </div>
