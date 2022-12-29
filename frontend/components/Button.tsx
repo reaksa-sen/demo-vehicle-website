@@ -31,7 +31,7 @@ const button = cva('rounded-md relative', {
       medium: 'text-md'
     },
     expand: {
-      true: 'px-12 py-2'
+      true: '!px-12 !py-2'
     },
     fullWidth: {
       true: 'w-full'
