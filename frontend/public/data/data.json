@@ -2,8 +2,15 @@
   "navigationBar": [
     {"name": "Home", "link": "/"},
     {"name": "Search", "link": "/search"},
-    {"name": "Listing", "link": "/Listing"},
+    {"name": "Listing", "link": "/listing"},
     {"name": "About Us", "link": "/about"},
     {"name": "Contact Us", "link": "/contact"}
-  ]
-}
+  ],
+  "footer" :[
+    {"name": "Search", "link": "/search"},
+    {"name": "Listing", "link": "/listing"},
+    {"name": "About Us", "link": "/about"},
+    {"name": "Contact Us", "link": "/contact"}
+  ],
+    "textFooter":" Award-winning, family owned dealership of new and pre-owned vehicles with several locations across the city. Lowest prices and the best customer service guaranteed."
+} 
