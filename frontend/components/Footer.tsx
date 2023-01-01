@@ -62,9 +62,9 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center justify-center border-t border-gray-700 md:flex-row md:justify-between">
           <div className="mt-6 flex text-base text-white">
             Copyright © 2021. All rights reserved.
-            <a href="/" className="cursor-pointer underline">
-              Privacy Policy
-            </a>
+            <Link href="/">
+              <a className="cursor-pointer underline">Privacy Policy</a>
+            </Link>
           </div>
           <div className="mt-6 flex gap-7 md:gap-7 lg:gap-3">
             {Icon.map((x, i) => (
