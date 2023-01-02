@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import 'swiper/css';
 import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
+// import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { NextPage } from 'next';
 import React, { useEffect, useRef, useState } from 'react';
