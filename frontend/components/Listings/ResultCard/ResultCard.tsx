@@ -12,7 +12,7 @@ const Items = [
     price: '800,300',
     subtitle: 'Keyless Start, Leather seats, Navigation System, Reversing camera',
     tags: ['Automatic', 'Petro'],
-    img: '/car1.jpg'
+    img: '/Car1.jpg'
   },
   {
     location: 'New York, NY, USA',
@@ -20,7 +20,7 @@ const Items = [
     price: '800,300',
     subtitle: 'Keyless Start, Leather seats, Navigation System, Reversing camera',
     tags: ['Automatic', 'Petro'],
-    img: '/car2.jpg'
+    img: '/Car2.jpg'
   },
   {
     location: 'New York, NY, USA',
@@ -44,7 +44,7 @@ const Items = [
     price: '800,300',
     subtitle: 'Keyless Start, Leather seats, Navigation System, Reversing camera',
     tags: ['Automatic', 'Petro'],
-    img: '/car1.jpg'
+    img: '/Car1.jpg'
   },
   {
     location: 'New York, NY, USA',
@@ -52,7 +52,7 @@ const Items = [
     price: '800,300',
     subtitle: 'Keyless Start, Leather seats, Navigation System, Reversing camera',
     tags: ['Automatic', 'Petro'],
-    img: '/car2.jpg'
+    img: '/Car2.jpg'
   }
 ];
 export const ResultCard: React.FC = () => {
@@ -106,7 +106,7 @@ export const ResultCard: React.FC = () => {
       </div>
       {/* --Pagination-- */}
       <div className="my-7 flex justify-center self-center">
-        <PaginationOutlined/>
+        <PaginationOutlined />
       </div>
     </div>
   );
