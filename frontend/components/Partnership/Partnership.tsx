@@ -39,11 +39,11 @@ export const Partners = () => (
         <Swiper
           loop={true}
           navigation={true}
-          slidesPerView={1}
+          slidesPerView={2}
           modules={[Pagination, Navigation]}
           breakpoints={{
             640: {
-              slidesPerView: 1,
+              slidesPerView: 2,
               slidesPerGroup: 1
             },
             768: {
