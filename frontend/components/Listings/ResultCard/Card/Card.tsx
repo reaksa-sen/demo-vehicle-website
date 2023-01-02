@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { AiOutlineStar } from 'react-icons/ai';
 import { BsDot } from 'react-icons/bs';
 import { FeatureCar } from '../FeatureCar/FeatureCar';
@@ -62,9 +63,9 @@ export const Card: React.FC<Props> = props => {
               {/* ---Price--- */}
               <div className="-mt-3 xl:-mt-0 xl:text-end">
                 <h1 className="my-1 text-2xl font-bold text-primary-500 xl:my-0">${price}</h1>
-                <a className="hidden underline xl:block" href="/">
-                  Calculate financing
-                </a>
+                <Link href="/">
+                  <a className="hidden underline xl:block">Calculate financing</a>
+                </Link>
               </div>
             </div>
           </div>
