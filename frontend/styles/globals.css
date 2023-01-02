@@ -44,3 +44,20 @@ body {
   left: 0px !important;
   z-index: 100 !important;
 }
+
+.gold-logo--wide {
+  max-width: 250px !important;
+}
+
+.gold-logo--high {
+  max-height: 120px !important;
+}
+
+.gold-logo {
+  width: auto;
+  max-width: 185px;
+  margin: 10px 25px;
+  vertical-align: middle;
+  height: auto;
+  max-height: 100px;
+}
