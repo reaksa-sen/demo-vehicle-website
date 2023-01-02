@@ -13,7 +13,7 @@ const title = cva('', {
     },
     color: {
       gray: 'text-gray-600',
-      white: 'text-white',
+      white: '!text-white',
       black: 'text-black',
       primary: 'text-primary'
     },
