@@ -107,12 +107,10 @@ export const Feature: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="mt-7 flex flex-col justify-center sm:flex-row sm:justify-between">
-        <div className="mb-10 flex flex-col items-center md:flex-col md:justify-center lg:flex-row lg:justify-start">
-          <p className="mb-5 mr-3 font-sans font-semibold text-gray-400 md:mb-5 lg:mb-0">
-            Follow us
-          </p>
-          <div className="flex gap-7 md:gap-7 lg:gap-3">
+      <div className="my-7 flex flex-col items-center justify-center lg:flex-row lg:justify-between">
+        <div className="flex flex-col items-center gap-y-3 md:justify-center lg:flex-row lg:justify-start">
+          <p className="mr-3 font-sans font-semibold text-gray-400">Follow us</p>
+          <div className="flex gap-x-3">
             {Icon.map((x, i) => (
               <Link href={x.href} key={i}>
                 <a
@@ -125,7 +123,7 @@ export const Feature: React.FC = () => {
             ))}
           </div>
         </div>
-        <div>
+        <div className="pt-3 lg:pt-0">
           <Button variant="light">View 29 New</Button>
         </div>
       </div>

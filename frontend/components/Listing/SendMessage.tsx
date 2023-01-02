@@ -9,14 +9,14 @@ export const SendMessage: React.FC = () => {
   return (
     <div className="bg-bluesky-500">
       <div className="container grid grid-cols-1 gap-7 py-16  lg:grid-cols-4">
-        <div className="col-span-2">
-          <div className="py-6">
-            <Title variant="h4">SendMessage</Title>
+        <div className="col-span-2 ">
+          <Title variant="h4">SendMessage</Title>
+          <div className="pt-4 ">
+            <ContactForm />
           </div>
-          <ContactForm />
         </div>
-        <div className="col-span-2">
-          <div className="mx-auto mt-12 flex w-full justify-between rounded-xl bg-white shadow lg:max-w-md">
+        <div className="col-span-2 mt-8">
+          <div className="relative  top-4 mx-auto flex w-full justify-between rounded-xl bg-white shadow lg:max-w-md">
             <div className="ml-8 pb-7">
               <h2 className="pt-6 text-xl font-bold">Sophia Kennith</h2>
               <p className="text-primary-500">Custumer Advisor</p>

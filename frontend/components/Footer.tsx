@@ -48,20 +48,20 @@ const Footer: React.FC = () => {
           </div>
           {/* contact */}
           <div className="flex w-1/2 flex-col items-center md:items-end">
-            <p className="flex pb-3 text-3xl font-bold text-white md:text-2xl">
+            <p className="flex whitespace-pre pb-3 text-3xl font-bold text-white md:text-2xl">
               (123) <span className="text-background">456-78901</span>
             </p>
             <div className="whitespace-pre md:text-center lg:text-start">
               <p className="text-white"> support@vehica.com</p>
-              <p className="py-5 text-end text-white">
+              <p className="py-5 text-center text-white lg:text-end">
                 West 12th Street <br /> New York, NY, USA
               </p>
             </div>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center border-t border-gray-700 md:flex-row md:justify-between">
-          <div className="mt-6 flex text-base text-white">
-            Copyright © 2021. All rights reserved.
+          <div className="mt-6 flex flex-col items-center gap-y-2 text-sm text-white lg:flex-row lg:text-base">
+            <p className="whitespace-pre">Copyright © 2021. All rights reserved.</p>
             <Link href="/">
               <a className="cursor-pointer underline">Privacy Policy</a>
             </Link>
