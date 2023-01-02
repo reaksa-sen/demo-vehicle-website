@@ -60,7 +60,7 @@ export const Popular: React.FC = () => {
       loop={true}
       navigation={true}
       spaceBetween={30}
-      slidesPerView={4}
+      slidesPerView={1}
       modules={[Pagination, Navigation]}
       className="myswiper"
       breakpoints={{
