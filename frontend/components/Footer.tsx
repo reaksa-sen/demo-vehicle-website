@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           <div className="my-12 grid gap-x-10 gap-y-10 md:grid-cols-2 lg:grid-cols-6">
             {/* logo */}
             <div className="col-span-2 justify-self-center">
-              <img className="h-8 w-auto" src="/images/logo1.png" alt="logo" />
+              <img className="h-20 w-auto" src="/images/logo4.png" alt="logo" />
             </div>
             {/* list */}
             <div className="col-span-2 justify-self-center text-white">

@@ -110,7 +110,7 @@ const Navigator = () => {
         <div className="relative flex items-center gap-x-5 ">
           <Link href="/" passHref>
             <a>
-              <img src="/images/logo1.png" className="h-8 w-auto cursor-pointer" alt="vehicle" />
+              <img src="/images/logo4.png" className="h-12 w-auto cursor-pointer" alt="vehicle" />
             </a>
           </Link>
           {data.navigationBar.map((item, i) => (
@@ -127,12 +127,12 @@ const Navigator = () => {
           <NavButton onClick={() => handleNavBar()} isNavOpen={isNavOpen} />
           <Link href="/" passHref>
             <img
-              src="/images/logo1.png"
-              className="h-7 w-auto cursor-pointer sm:h-8"
+              src="/images/logo4.png"
+              className="h-16 w-auto cursor-pointer sm:h-20"
               alt="Vehicle"
             />
           </Link>
-          <MdPeopleAlt className="h-8 w-auto text-white" />
+          <MdPeopleAlt className="h-12 w-auto text-white" />
         </div>
       </div>
 

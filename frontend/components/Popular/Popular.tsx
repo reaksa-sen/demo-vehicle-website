@@ -101,12 +101,12 @@ export const Popular: React.FC = () => {
       <div className="mt-10 flex items-center justify-between">
         <div className="flex gap-x-3">
           <SwiperButtonPrev>
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-xl">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 text-xl shadow-sm">
               <HiChevronLeft />
             </div>
           </SwiperButtonPrev>
           <SwiperButtonNext>
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-xl">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 text-xl shadow-sm">
               <HiChevronRight />
             </div>
           </SwiperButtonNext>
